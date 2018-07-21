@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Apothecary\'s Treasures</string>
+
+    <!--Product Options-->
+    <string name="anonymitys_breath">Anonymity\'s Breath</string>
+    <string name="assassins_choice">Assassin\'s Choice</string>
+    <string name="beautys_deceit">Beauty\'s Deceit</string>
+    <string name="carousal_gift">Carousal Gift</string>
+    <string name="childs_whisper">Child\'s Whisper</string>
+    <string name="elven_remedy">Elven Remedy</string>
+    <string name="eye_of_atlantis">Eye of Atlantis</string>
+    <string name="fairys_hope">Fairy\'s Hope</string>
+    <string name="hydras_head">Hydra\'s Head</string>
+    <string name="infernal_roots">Infernal Roots</string>
+    <string name="jacks_beanstalk">Jack\'s Beanstalk</string>
+    <string name="rays_of_a_star">Rays of a Star</string>
+    <string name="regret_of_genesis">Regret of Genesis</string>
+    <string name="shaper_of_dreams">Shaper of Dreams</string>
+    <string name="shining_tears">Shining Tears</string>
+    <string name="silencer_of_doubts">Silencer of Doubts</string>
+    <string name="true_loves_myth">True Love\'s Myth</string>
+    <string name="veiled_panacea">Veiled Panacea</string>
+    <string name="wail_of_a_mermaid">Wail of a Mermaid</string>
+    <string name="wallflowers_soul">Wallflower\'s Soul</string>
+
+    <!--Supplier Options-->
+    <string name="druids_hut">Druid\'s Hut</string>
+    <string name="fairy_treehouse">Fairy Treehouse</string>
+    <string name="hermits_hideout">Hermit\'s Hideout</string>
+    <string name="sunken_ship">Sunken Ship</string>
+    <string name="wiccas_dwelling">Wicca\'s Dwelling</string>
+
+    <string name="product">Product</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier">Supplier</string>
+    <string name="price">Price</string>
+    <string name="add_to_database">Add to Database</string>
+    <string name="database_contents">Database Contents</string>
+    <string name="minimum_quantity">Minimum quantity is 1</string>
+
+</resources>

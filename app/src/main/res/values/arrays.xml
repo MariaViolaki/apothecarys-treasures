@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_options">
+        <item>@string/anonymitys_breath</item>
+        <item>@string/assassins_choice</item>
+        <item>@string/beautys_deceit</item>
+        <item>@string/carousal_gift</item>
+        <item>@string/childs_whisper</item>
+        <item>@string/elven_remedy</item>
+        <item>@string/eye_of_atlantis</item>
+        <item>@string/fairys_hope</item>
+        <item>@string/hydras_head</item>
+        <item>@string/infernal_roots</item>
+        <item>@string/jacks_beanstalk</item>
+        <item>@string/rays_of_a_star</item>
+        <item>@string/regret_of_genesis</item>
+        <item>@string/shaper_of_dreams</item>
+        <item>@string/shining_tears</item>
+        <item>@string/true_loves_myth</item>
+        <item>@string/veiled_panacea</item>
+        <item>@string/wail_of_a_mermaid</item>
+        <item>@string/wallflowers_soul</item>
+    </string-array>
+
+    <string-array name="supplier_options">
+        <item>@string/druids_hut</item>
+        <item>@string/fairy_treehouse</item>
+        <item>@string/hermits_hideout</item>
+        <item>@string/sunken_ship</item>
+        <item>@string/wiccas_dwelling</item>
+    </string-array>
+</resources>
