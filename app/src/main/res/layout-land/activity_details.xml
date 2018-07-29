@@ -48,6 +48,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/space_medium"
+                        android:popupBackground="@color/colorAccent"
                         android:spinnerMode="dropdown"
                         tools:listitem="@layout/support_simple_spinner_dropdown_item" />
 
@@ -130,6 +131,7 @@
                         android:id="@+id/supplier_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:popupBackground="@color/colorAccent"
                         android:spinnerMode="dropdown"
                         tools:listitem="@layout/support_simple_spinner_dropdown_item" />
 
