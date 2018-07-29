@@ -31,12 +31,42 @@
     <string name="sunken_ship">Sunken Ship</string>
     <string name="wiccas_dwelling">Wicca\'s Dwelling</string>
 
-    <string name="product">Product</string>
+    <!--Activity Labels-->
+    <string name="potion_inventory">Potion Inventory</string>
+    <string name="add_potion">Add Potion</string>
+    <string name="update_potion">Update Potion</string>
+
+    <!--Menu Items-->
+    <string name="add_potions">Add Potions</string>
+    <string name="delete_inventory">Delete Inventory</string>
+    <string name="save_potion">Save Potion</string>
+
+    <!--Layout Text-->
+    <string name="potion">Potion</string>
     <string name="quantity">Quantity</string>
     <string name="supplier">Supplier</string>
     <string name="price">Price</string>
-    <string name="add_to_database">Add to Database</string>
-    <string name="database_contents">Database Contents</string>
-    <string name="minimum_quantity">Minimum quantity is 1</string>
+    <string name="order">Order</string>
+    <string name="delete">Delete</string>
+    <string name="sale">Sale</string>
+    <string name="default_view_text">Inventory is Empty.
+        \nAdd more items by choosing a type of potion, the quantity and the supplier.</string>
+
+    <!--Toast Messages-->
+    <string name="minimum_quantity">Minimum quantity is 0</string>
+    <string name="maximum_quantity">Maximum quantity is 10</string>
+    <string name="zero_potions">Cannot add zero potions</string>
+    <string name="already_listed">Potion is already listed</string>
+    <string name="potion_added">Potion added</string>
+    <string name="potion_not_added">Couldn\'t add potion</string>
+    <string name="potion_updated">Potion updated</string>
+    <string name="potion_not_updated">Couldn\'t update potion</string>
+    <string name="potion_deleted">Potion deleted</string>
+    <string name="potion_not_deleted">Couldn\'t delete potion</string>
+    <string name="out_of_stock">Potion is out of stock</string>
+    <string name="delete_dialog">Delete Potion?</string>
+    <string name="discard_dialog">Discard Changes?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
 </resources>

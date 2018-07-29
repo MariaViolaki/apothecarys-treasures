@@ -3,18 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    android:padding="@dimen/space_small"
-    tools:context=".TreasureActivity">
+    android:background="@drawable/background_vertical"
+    android:padding="@dimen/space_medium"
+    tools:context=".DetailsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:focusable="true"
-        android:focusableInTouchMode="true"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/space_small"
-        android:paddingTop="@dimen/space_large">
+        android:paddingBottom="@dimen/space_medium"
+        android:paddingTop="@dimen/space_huge">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,29 +21,29 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/product_image"
-                android:layout_width="@dimen/image_size"
-                android:layout_height="@dimen/image_size"
+                android:id="@+id/potion_image"
+                android:layout_width="@dimen/large_image_width"
+                android:layout_height="@dimen/large_image_height"
                 tools:src="@drawable/anonymitys_breath" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="@dimen/space_small">
+                android:paddingLeft="@dimen/space_medium">
 
                 <TextView
                     style="@style/HeaderStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/product" />
+                    android:text="@string/potion" />
 
                 <Spinner
-                    android:id="@+id/product"
+                    android:id="@+id/potion"
                     style="@style/TextStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/space_small"
+                    android:layout_marginTop="@dimen/space_medium"
                     android:spinnerMode="dropdown"
                     tools:listitem="@layout/support_simple_spinner_dropdown_item" />
 
@@ -56,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="@dimen/space_large">
+            android:paddingTop="@dimen/space_huge">
 
             <TextView
                 style="@style/HeaderStyle"
@@ -69,17 +68,18 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7"
-                android:paddingLeft="@dimen/space_small">
+                android:paddingLeft="@dimen/space_medium">
 
                 <Button
                     android:id="@+id/subtraction"
-                    style="@style/ButtonStyle"
-                    android:layout_width="@dimen/button_size"
-                    android:layout_height="@dimen/button_size"
+                    style="@style/LightButtonStyle"
+                    android:layout_width="@dimen/calculation_button_size"
+                    android:layout_height="@dimen/calculation_button_size"
                     android:text="-" />
 
                 <TextView
                     android:id="@+id/quantity"
+                    style="@style/TextStyle"
                     android:layout_width="@dimen/quantity_space"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
@@ -87,9 +87,9 @@
 
                 <Button
                     android:id="@+id/addition"
-                    style="@style/ButtonStyle"
-                    android:layout_width="@dimen/button_size"
-                    android:layout_height="@dimen/button_size"
+                    style="@style/LightButtonStyle"
+                    android:layout_width="@dimen/calculation_button_size"
+                    android:layout_height="@dimen/calculation_button_size"
                     android:text="+" />
 
             </LinearLayout>
@@ -100,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="@dimen/space_large">
+            android:paddingTop="@dimen/space_huge">
 
             <TextView
                 style="@style/HeaderStyle"
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="7"
                 android:orientation="vertical"
-                android:paddingLeft="@dimen/space_small">
+                android:paddingLeft="@dimen/space_medium">
 
                 <Spinner
                     android:id="@+id/supplier_name"
@@ -130,8 +130,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/call"
-                    android:paddingTop="@dimen/space_large"
-                    tools:text=" 00000000" />
+                    android:drawablePadding="@dimen/space_medium"
+                    android:paddingTop="@dimen/space_huge"
+                    tools:text="00000000" />
 
             </LinearLayout>
 
@@ -141,8 +142,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingBottom="@dimen/space_large"
-            android:paddingTop="@dimen/space_large">
+            android:paddingBottom="@dimen/space_huge"
+            android:paddingTop="@dimen/space_huge">
 
             <TextView
                 style="@style/HeaderStyle"
@@ -157,43 +158,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7"
-                android:paddingLeft="@dimen/space_small"
+                android:paddingLeft="@dimen/space_medium"
                 tools:text="100 Coins" />
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/confirmation_button"
-            style="@style/ButtonStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/space_large"
-            android:text="@string/add_to_database" />
-
         <LinearLayout
-            android:id="@+id/data_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:focusable="true"
-            android:focusableInTouchMode="true"
-            android:orientation="vertical"
-            android:visibility="gone">
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/space_large">
 
-            <TextView
-                style="@style/HeaderStyle"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/order_button"
+                style="@style/LightButtonStyle"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingTop="@dimen/space_large"
-                android:text="@string/database_contents"
-                android:textColor="@color/light_green" />
+                android:layout_marginEnd="@dimen/space_medium"
+                android:layout_marginStart="@dimen/space_medium"
+                android:layout_weight="1"
+                android:text="@string/order" />
 
-            <TextView
-                android:id="@+id/data"
-                style="@style/TextStyle"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/delete_button"
+                style="@style/DarkButtonStyle"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingTop="@dimen/space_small"
-                tools:text="Database contents displayed here." />
+                android:layout_marginEnd="@dimen/space_medium"
+                android:layout_marginStart="@dimen/space_medium"
+                android:layout_weight="1"
+                android:text="@string/delete" />
 
         </LinearLayout>
 

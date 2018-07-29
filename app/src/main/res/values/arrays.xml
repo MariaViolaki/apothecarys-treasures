@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="product_options">
+    <string-array name="potion_options">
         <item>@string/anonymitys_breath</item>
         <item>@string/assassins_choice</item>
         <item>@string/beautys_deceit</item>
@@ -16,6 +16,7 @@
         <item>@string/regret_of_genesis</item>
         <item>@string/shaper_of_dreams</item>
         <item>@string/shining_tears</item>
+        <item>@string/silencer_of_doubts</item>
         <item>@string/true_loves_myth</item>
         <item>@string/veiled_panacea</item>
         <item>@string/wail_of_a_mermaid</item>

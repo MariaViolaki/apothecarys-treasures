@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="text_small">18sp</dimen>
+    <dimen name="text_small">17sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
     <dimen name="text_large">19sp</dimen>
-    <dimen name="space_small">8dp</dimen>
-    <dimen name="space_medium">16dp</dimen>
-    <dimen name="space_large">24dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+    <dimen name="space_large">16dp</dimen>
+    <dimen name="space_huge">24dp</dimen>
 
-    <dimen name="image_size">100dp</dimen>
+    <dimen name="large_image_height">100dp</dimen>
+    <dimen name="large_image_width">90dp</dimen>
+    <dimen name="small_image_height">90dp</dimen>
+    <dimen name="small_image_width">70dp</dimen>
     <dimen name="quantity_space">56dp</dimen>
-    <dimen name="button_size">48dp</dimen>
+    <dimen name="calculation_button_size">48dp</dimen>
+    <dimen name="sale_button_width">60dp</dimen>
 </resources>

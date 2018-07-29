@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_medium">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/small_image_width"
+        android:layout_height="@dimen/small_image_height"
+        android:layout_gravity="center_vertical"
+        tools:src="@drawable/anonymitys_breath" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_view"
+            style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/space_medium"
+            tools:text="@string/anonymitys_breath" />
+
+        <TextView
+            android:id="@+id/quantity_view"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pieces"
+            android:drawablePadding="@dimen/space_medium"
+            android:paddingBottom="@dimen/space_medium"
+            android:paddingLeft="@dimen/space_large"
+            android:textSize="@dimen/text_small"
+            tools:text="10 Pieces" />
+
+        <TextView
+            android:id="@+id/price_view"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/coins"
+            android:drawablePadding="@dimen/space_medium"
+            android:paddingLeft="@dimen/space_large"
+            android:textSize="@dimen/text_small"
+            tools:text="1000 Coins to Earn" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_view"
+        style="@style/DarkButtonStyle"
+        android:layout_width="@dimen/sale_button_width"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/sale" />
+
+</LinearLayout>
